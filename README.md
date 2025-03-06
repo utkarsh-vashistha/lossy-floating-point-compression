@@ -28,6 +28,8 @@ Binary to be saved = 0 01111110 1111100
   read_16bit_bin_as_float32(filename)
 
 
+
+##Important points
 **1. Priority-Based Compression:** The number of bits that can be discarded depends on the priority and importance of the data. Critical applications require higher precision, while less critical data can tolerate more compression.
 
 **2. High Precision vs. Compute Efficiency:** Float64 is ideal for the highest precision, whereas BFloat16 can significantly reduces memory usage while maintaining performance, making it optimal for high-speed computations like AI and deep learning.
